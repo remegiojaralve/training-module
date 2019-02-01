@@ -16,8 +16,11 @@
 
 @import 'layout/grid';
 @import 'layout/layout';
-@import 'layout/l-header';
 @import 'layout/l-index';
-@import 'layout/l-features';
+@import 'layout/l-index-hero';
+@import 'layout/l-index-features';
 
-@import 'components/features-article';
+@import 'components/_hero';
+@import 'components/_features';
+@import 'components/_article';
+>>>>>>> feature/index

@@ -1,8 +1,3 @@
-.features-article {
-  width: 306px;
-  float: left;
-  padding: 25px 10px 10px 10px;
-}
 
 .article-title1, .article-title2, .article-title3 {
   text-align: left;
@@ -11,9 +6,13 @@
   padding: 10px 0px;
 }
 
-.article-title1 {color: #ed3833;}
-.article-title2{color: #fef851;}
-.article-title3{color: #2046f5;}
+.article-title1 {color: $color-title1;}
+.article-title2 {color: $color-title2;}
+.article-title3 {color: $color-title3;}
+
+.article-image {
+  width: 280px;
+}
 
 .article-description {
   text-align: left;
