@@ -16,8 +16,8 @@
 
 @import 'layout/grid';
 @import 'layout/layout';
-@import 'layout/_l-header';
-@import 'layout/_l-index';
-@import 'layout/_l-index-features';
+@import 'layout/l-header';
+@import 'layout/l-index';
+@import 'layout/l-features';
 
-@import 'components/_features-article';
+@import 'components/features-article';
