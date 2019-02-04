@@ -1,24 +1,33 @@
-.features {
-  width: 1000px;
-  background-color: $color-secondary;
-  margin: 0 auto;
-  text-align: center;
-  border: 10px solid #fff;
-  padding: 20px;
-  height: auto;
-  overflow: hidden;
+.features
+{
+    overflow: hidden;
+
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+
+    text-align: center;
+
+    border: 10px solid #fff;
+    background-color: $color-secondary;
 }
 
-.features-heading {
-  font-size: 30px;
+.features-heading
+{
+    font-size: 30px;
 }
 
-.features-list {
-  list-style: none;
-  display: inline-table;
-  padding: 20px 5px 5px 5px;
+.features-list
+{
+    display: inline-table;
+
+    padding: 20px 5px 5px 5px;
+
+    list-style: none;
 }
 
-.features-article {
-  width: 300px;
+.features-article
+{
+    width: 300px;
 }

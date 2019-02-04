@@ -1,20 +1,37 @@
 
-.article-title1, .article-title2, .article-title3 {
-  text-align: left;
-  font-size: 20px;
-  font-style: italic;
-  padding: 10px 0px;
+.article-title1,
+.article-title2,
+.article-title3
+{
+    font-size: 20px;
+    font-style: italic;
+
+    padding: 10px 0;
+
+    text-align: left;
 }
 
-.article-title1 {color: $color-title1;}
-.article-title2 {color: $color-title2;}
-.article-title3 {color: $color-title3;}
-
-.article-image {
-  width: 280px;
+.article-title1
+{
+    color: $color-title1;
+}
+.article-title2
+{
+    color: $color-title2;
+}
+.article-title3
+{
+    color: $color-title3;
 }
 
-.article-description {
-  text-align: left;
-  color: #fff;
+.article-image
+{
+    width: 280px;
+}
+
+.article-description
+{
+    text-align: left;
+
+    color: #fff;
 }
