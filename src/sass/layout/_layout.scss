@@ -1,6 +1,8 @@
-//.l-container {
-//
-//  @include max-screen($breakpoint-mobile) {
-//
-//  }
-//}
+.l-container {
+  width: 1000px;
+  margin: 0 auto;
+
+  @include max-screen($breakpoint-mobile) {
+
+  }
+}

@@ -1,15 +1,18 @@
   .l-index {
-  width: 100%;
   background-color: $color-primary;
+
+  min-width: 1366px;
 }
 
 
 .l-index-hero {
-  width: 100%;
-  height: 670px;
   text-align: center;
+
   background-image: url(../images/bg.jpeg);
   background-size: cover;
+
+  width: 100%;
+  height: 100vh;
 }
 
 .l-index-features {

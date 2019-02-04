@@ -1,12 +1,9 @@
 .features {
-    overflow: hidden;
     text-align: center;
 
-    border: 10px solid #fff;
+    border: 10px solid $base-background-color;
     background-color: $color-secondary;
 
-    width: 1000px;
-    height: auto;
     margin: 0 auto;
     padding: 20px;
 }
@@ -15,7 +12,7 @@
     font-size: 30px;
 }
 
-.features-list {
+.features-list-item {
     list-style: none;
 
     display: inline-table;
