@@ -1,29 +1,25 @@
-.features
-{
+.features {
     overflow: hidden;
+    text-align: center;
+
+    border: 10px solid #fff;
+    background-color: $color-secondary;
 
     width: 1000px;
     height: auto;
     margin: 0 auto;
     padding: 20px;
-
-    text-align: center;
-
-    border: 10px solid #fff;
-    background-color: $color-secondary;
 }
 
-.features-heading
-{
+.features-heading {
     font-size: 30px;
 }
 
-.features-list
-{
+.features-list {
+    list-style: none;
+
     display: inline-table;
 
     width: 300px;
-    padding: 20px 5px 5px 5px;
-
-    list-style: none;
+    padding: 20px 5px 5px;
 }
