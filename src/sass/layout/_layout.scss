@@ -1,6 +1,8 @@
 .l-container {
-  width: 1000px;
-  margin: 0 auto;
+  position: relative;
+
+  width: $site-size;
+  margin: auto;
 
   @include max-screen($breakpoint-mobile) {
 

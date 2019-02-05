@@ -1,6 +1,4 @@
 .features {
-    text-align: center;
-
     border: 10px solid $base-background-color;
     background-color: $color-secondary;
 
@@ -9,13 +7,19 @@
 }
 
 .features-heading {
+  text-align: center;
+
     font-size: 30px;
+}
+
+.features-list {
+  display: flex;
+
+  justify-content: space-evenly;
 }
 
 .features-list-item {
     list-style: none;
-
-    display: inline-table;
 
     width: 300px;
     padding: 20px 5px 5px;
